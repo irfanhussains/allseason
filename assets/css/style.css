@@ -31,7 +31,7 @@ p{
 header{
 	background:#FED966;
 	position:relative;
-	overflow:hidden;
+	
 }
 header:after {
     background: #FFF2CD;
@@ -111,6 +111,7 @@ h5 {
     z-index: 1;
     transform: skew(55deg);
 	right:70px;
+	overflow:hidden;
 }
 .header-right .unskew {
         transform: skew(-55deg);
